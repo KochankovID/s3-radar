@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "s3-radar"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Ilya Kochankov <ilyakochankov@yandex.ru>"]
 readme = "README.md"
@@ -13,7 +13,7 @@ mimesis = "^16.0.0"
 tqdm = "^4.66.4"
 
 [tool.poetry.scripts]
-smithy = 's3_radar.__main__:app'
+s3r = 's3_radar.__main__:app'
 
 
 [build-system]
