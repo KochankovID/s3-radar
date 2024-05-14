@@ -44,7 +44,7 @@ def upload_file(
     end_time = time.time()
     upload_time_seconds = end_time - start_time
 
-    print(f"Upload {file_size} mb for {upload_time_seconds:.2f} seconds")
+    print(f"Upload {file_size / BYTES_IN_MEGABYTE} mb for {upload_time_seconds:.2f} seconds")
     print(f"Speed: {file_size / BYTES_IN_MEGABYTE / upload_time_seconds:.2f} mb/s")
 
 
@@ -85,5 +85,5 @@ def download_file(
     end_time = time.time()
     download_time_seconds = end_time - start_time
 
-    print(f"Download {file_size} mb for {download_time_seconds:.2f} seconds")
+    print(f"Download {file_size / BYTES_IN_MEGABYTE} mb for {download_time_seconds:.2f} seconds")
     print(f"Speed: {file_size / BYTES_IN_MEGABYTE / download_time_seconds:.2f} mb/s")
