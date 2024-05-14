@@ -110,21 +110,6 @@ files = [
 ]
 
 [[package]]
-name = "mimesis"
-version = "16.0.0"
-description = "Mimesis: Fake Data Generator."
-optional = false
-python-versions = "<4.0,>=3.10"
-files = [
-    {file = "mimesis-16.0.0-py3-none-any.whl", hash = "sha256:adeebdd6c39b84fcf5c232cb42a931cfdaf541248a4b34382029e90d357c35dd"},
-    {file = "mimesis-16.0.0.tar.gz", hash = "sha256:0837e4063a62e15b4ac73ae5fdef37c93c5ba0e02c9e5681481c1dfde407d4fe"},
-]
-
-[package.extras]
-factory = ["factory-boy (>=3.3.0,<4.0.0)"]
-pytest = ["pytest (>=7.2,<8.0)"]
-
-[[package]]
 name = "pygments"
 version = "2.18.0"
 description = "Pygments is a syntax highlighting package written in Python."
@@ -276,5 +261,5 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.11"
-content-hash = "9af02af09e4b47b36c677c12c8baf3ac67238fb6bcd9b53b8d0feda1c8832cad"
+python-versions = "^3.10"
+content-hash = "4eae2b0253789185ce354db75101bee1b17340b9a8fcbe9cc89f8242360f1973"
