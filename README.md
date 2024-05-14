@@ -19,3 +19,21 @@ poetry add s3_radar
 ```
 
 ## :cake: How to use it
+
+### Measure upload speed
+
+```bash
+s3r up <bucket> <ak> <ask> -s <size-in-bytes>
+```
+
+### Measure upload and download speed
+
+```bash
+s3r down <bucket> <ak> <ask> -s <size-in-bytes>
+```
+
+### Show command list
+
+```bash
+smithy --help
+```
