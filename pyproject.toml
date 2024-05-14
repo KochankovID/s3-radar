@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "s3-radar"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Ilya Kochankov <ilyakochankov@yandex.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 typer = {extras = ["all"], version = "^0.12.3"}
 boto3 = "^1.34.104"
 mimesis = "^16.0.0"
